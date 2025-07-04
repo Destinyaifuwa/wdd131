@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+header {
+    background-color: #1d3557;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1, h2 {
+    display: block;
+    font-size: 1.5rem;
+    color: #f1c40f;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background-color: #f1c40f;
+    color: #333;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.card h2 {
+  background-color: #1d3557;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #1d3557;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+#lastModified {
+  color: #f1c40f;
+}
