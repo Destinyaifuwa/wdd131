@@ -6,7 +6,7 @@ const lastModifiedElem = document.getElementById('lastModified');
 
 // Set current year
 const currentYear = new Date().getFullYear();
-copyrightElem.textContent = `© ${currentYear} Your Company Name`;
+copyrightElem.textContent = `© ${currentYear} Destiny Aifuwa Junior`;
 
 // Set last modified date
 lastModifiedElem.textContent = `Last modified: ${document.lastModified}`;
