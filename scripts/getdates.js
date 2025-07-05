@@ -1,6 +1,12 @@
-// Get the current year and insert into the span with id="currentyear"
-const yearSpan = document.getElementById("currentyear");
-yearSpan.textContent = new Date().getFullYear();
+// getdates.js
 
-// Set the last modified date
-document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
+// Select elements by their IDs
+const copyrightElem = document.getElementById('copyright');
+const lastModifiedElem = document.getElementById('lastModified');
+
+// Set current year
+const currentYear = new Date().getFullYear();
+copyrightElem.textContent = `© ${currentYear} Your Company Name`;
+
+// Set last modified date
+lastModifiedElem.textContent = `Last modified: ${document.lastModified}`;
