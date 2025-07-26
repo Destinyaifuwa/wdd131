@@ -63,13 +63,6 @@ const temples = [
     imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/abidjan-ivory-coast-temple/abidjan-ivory-coast-temple-59714.jpg"
   },
   {
-    templeName: "Navoo Temple",
-    location: "Nauvoo, Illinois United States",
-    dedicated: "1846 May 3",
-    area: 50000,
-    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/nauvoo-temple/nauvoo-temple-4279.jpg"
-    },
-  {
     templeName: "Dallas Texas Temple",
     location: "Dallas, Texas",
     dedicated: "1984, October, 24",
