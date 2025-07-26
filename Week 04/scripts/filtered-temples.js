@@ -48,6 +48,34 @@ const temples = [
     area: 116642,
     imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
+  {
+    templeName: "Accra Ghana",
+    location: "Accra, Ghana",
+    dedicated: "2004, January, 11",
+    area: 17500,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-5154.jpg"
+  },
+  {
+    templeName: "Abidjan Ivory Coast",
+    location: "Abidjan Cocody",
+    dedicated: "2025 May 25",
+    area: 17362,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/abidjan-ivory-coast-temple/abidjan-ivory-coast-temple-59714.jpg"
+  },
+  {
+    templeName: "Navoo Temple",
+    location: "Nauvoo, Illinois United States",
+    dedicated: "1846 May 3",
+    area: 50000,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/nauvoo-temple/nauvoo-temple-4279.jpg"
+    },
+  {
+    templeName: "Dallas Texas Temple",
+    location: "Dallas, Texas",
+    dedicated: "1984, October, 24",
+    area: 44207,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/dallas-texas-temple/dallas-texas-temple-55221.jpg"
+  }
 ];
 
 // Utility Functions
