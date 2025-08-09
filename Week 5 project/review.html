@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reveiw Confirmation</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let count = localStorage.getItem("reviewCount") || 0;
+            count++;
+            localStorage.setItem("reviewCount", count);
+            document.getElementById("counter").textContent = count;  
+        })
+    </script>
+</head>
+<body>
+<header>
+    <h1>Thank You!</h1>
+</header>
+
+<main>
+    <p>Your review has been submitted successfully.</p>
+    <p>Total reviews submitted by you: <strong id="counter"></strong></p>
+</main>
+
+<footer>
+    <p>&copy; 2025 Destiny Aifuwa Junior</p>
+</footer>
+</body>
+</html>

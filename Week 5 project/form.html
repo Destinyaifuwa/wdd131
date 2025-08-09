@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Reveiw Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Product Reveiw</h1>
+</header>
+
+<main>
+    <form method="get" action="review.html">
+        <!--Product Name-->
+        <label for="productName">Product Name</label>
+        <select id="productName" name="productName" required>
+            <option value="" disabled selected>Selected a Product...</option>
+        </select>
+
+        <!--Overall Rating-->
+        <fieldset class="rating">
+            <legend>Overall Rating</legend>
+            <label>
+                <input type="radio" name="rating" value="1"required>
+                ★
+            </label>
+            <label>
+                <input type="radio" name="rating" value="2"required>
+                ★★
+            </label>
+            <label>
+                <input type="radio" name="rating" value="3"required>
+                ★★★
+            </label>
+            <label>
+                <input type="radio" name="rating" value="4"required>
+                ★★★★
+            </label>
+            <label>
+                <input type="radio" name="rating" value="5"required>
+                ★★★★★
+            </label>
+        </fieldset>
+
+        <!--Date of Installation-->
+        <label for="installDate">Date of Installation</label>
+        <input type="date" id="installDate" name="installDate required">
+
+        <!--Useful Features-->
+        <fieldset>
+            <legend>Useful Features(check all that apply)</legend>
+            <label><input type="checkbox" name="features" value="durable">Durable</label>
+            <label><input type="checkbox" name="features" value="lightweight">Lightweight</label>
+            <label><input type="checkbox" name="features" value="eco-friendly">Eco-Friendly</label>
+            <label><input type="checkbox" name="features" value="compact">Compact</label>
+        </fieldset>
+
+        <!--Written Reveiw-->
+        <label for="writtenReview">Written Review</label>
+        <textarea id="writtenReview" name="writtenReview" rows="4" placeholder=></textarea>
+
+        <!--User Name-->
+        <label for="userName">Your Name (Optional)</label>
+        <input type="text" id="userName" name="userName">
+
+        <!--Submit-->
+        <input type="submit" value="Submit Reveiw">
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2025 Destiny Aifuwa Junior</p>
+</footer>
+</body>
+</html>
